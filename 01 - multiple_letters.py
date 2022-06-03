@@ -4,7 +4,7 @@ print()
 def accum(s):
 
     # This function takes a group of letters, capitalize each one\
-    # and multiple them for their position with dash separating them.
+    # and multiple them for their position with dash separating them
     x = 1
     a = []
     for letter in s:
