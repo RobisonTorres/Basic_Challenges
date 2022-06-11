@@ -12,4 +12,5 @@ def split_the_bill(x):
         new_values = [round((num - total_divided), 2) for num in x.values()]
     return dict(zip(x.keys(), new_values))
 
-print(split_the_bill({'A': 20, 'B': 15, 'C': 10}))  # {'A': 5, 'B': 0, 'C': -5}
+print(split_the_bill({'A': 20, 'B': 15, 'C': 10}))
+# Outputs - {'A': 5, 'B': 0, 'C': -5}
